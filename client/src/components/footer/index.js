@@ -8,7 +8,7 @@ export default function Footer(props){
         <h3>Contact</h3>
         <p>Adoptme Corporation <br />
         123 Petting Lane <br />
-        Utahohio, OH 07777</p>
+        Delhi, Zip code-123456</p>
       </div>
     </div>
   );
