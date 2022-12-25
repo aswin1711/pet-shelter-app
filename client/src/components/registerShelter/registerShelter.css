@@ -1,0 +1,53 @@
+.btn-container {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn-container button {
+  width: 100%;
+  margin-top: 10px;
+  border: 2px solid #006e90;
+  color: #006e90;
+  background-color: transparent; 
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-container .btm-btn-wrapper {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.btn-container button:hover {
+  background-color: #006e90;
+  color: #fff;
+}
+
+.btn-container h3 {
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+ .btn-container .log-in, .btn-container .sign-up {
+
+    margin: 100px auto;
+  }
+
+
+@media only screen and (max-width: 500px) {
+  .btn-container {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .btn-container .log-in {
+    width: 80%;
+    margin: 20px auto;
+  }
+  .btn-container .sign-up {
+    width: 80%;
+    margin: 20px auto;
+  }
+}

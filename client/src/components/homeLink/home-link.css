@@ -1,0 +1,35 @@
+.home-link {
+  width: 28%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.home-link {
+  text-align: center;
+}
+
+.blurb-conainer p {
+  font-size: 18px;
+}
+
+.home-link button {
+  border: 2px solid #006e90;
+  color: #006e90;
+  background-color: transparent;
+  padding-left: 40px; 
+  padding-right: 40px; 
+  border-radius: 5px;
+
+}
+
+.home-link button:hover {
+  background-color: #006e90;
+  color: #fff;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 700px) {
+    .home-link {
+      width: 100%;
+    }
+}

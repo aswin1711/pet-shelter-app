@@ -1,0 +1,84 @@
+/*
+#006e90 Sea Blue
+#ADF5FF Italian Sky Blue
+#00FFC5 Turquoise Blue
+#481620 Dark Sienna
+
+
+#EBF2FA Anti-Flash white
+#427AA1 Queen Blue
+#006e90 Sea Blue
+#EB5E55 Sunset Orange
+#3A3335 Jet (text)
+##B8336A Rich Maroon
+#F7F9F9 Ghost White
+#FF5A5F Forgot
+#FCBA04 Selective Yellow
+#A50104 Hard candy Apple rEd
+##324376 Deep Koomaru (blue text)
+*/
+h3 {
+  font-family: 'Kameron', serif;
+  font-weight: 400px;
+  font-size: 1.414em;
+}
+h2{
+  font-size: 1.999em;
+}
+h1{
+  font-size: 2.827em;
+}
+header {
+  background-color: #006e90;
+  font-size: 1.999em;
+  font-family: 'Sansita One', sans-serif;
+}
+
+.navbar {
+  max-width: 600px;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.navbar ul {
+  display: flex;
+  padding: 0;
+  list-style-type: none;
+  justify-content: space-around;
+  margin: 0;
+}
+
+.navbar ul li {
+  padding: 20px 70px;
+}
+
+.navbar ul a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar ul li:first-child {
+  /* background-color: #FCBA04; */
+  font-size: 40px;
+}
+.navbar ul li{
+    transition: all 0.3s ease 0s;
+}
+.navbar ul li:hover {
+  background-color: #FCBA04;
+
+}
+
+@media only screen and (max-width: 740px) {
+  .navbar ul {
+    display: inline-block;
+    width: 100%;
+  }
+  .navbar ul li {
+    width: 100%;
+    text-align: center;
+  }
+  .navbar {
+    width: 100%;
+  }
+}

@@ -1,0 +1,19 @@
+.dashboard {
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+.dash-container{
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.animal-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px 20px 40px;
+}

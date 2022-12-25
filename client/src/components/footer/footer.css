@@ -1,0 +1,36 @@
+.footer-container {
+  text-align: center;
+  background-color: #FCBA04;
+  padding: 15px 20px;
+ 
+}
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  min-height: 100%;
+  margin: 0;
+  
+  position: relative;
+}
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.footer-container div{
+  color: #fff;
+}
+

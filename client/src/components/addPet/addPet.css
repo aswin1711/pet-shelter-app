@@ -1,0 +1,27 @@
+#image {
+  margin-bottom: 15px;
+}
+
+.add-pet-container a:hover {
+  color: #006e90;
+}
+
+.add-pet-btn-one {
+  padding-left: 5px;
+  padding-right: 10px;
+  border-top: none;
+  border-bottom: none;
+  border-right: 1px solid lightgray;
+  border-left: none;
+  background-color: transparent;
+}
+
+.add-pet-btn-two {
+  padding-left: 10px;
+  padding-right: 5px;
+  border-left: 1px solid lightgray;
+  border-right: none;
+  background-color: transparent;
+  border-top: none;
+  border-bottom: none;
+}
